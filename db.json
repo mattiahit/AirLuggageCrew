@@ -1,0 +1,75 @@
+{
+  "servers": [
+    {
+      "id": 1,
+      "name": "Alpha"
+    },
+    {
+      "id": 2,
+      "name": "Delta"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Mike",
+      "secondName": "Harris",
+      "roles": ["LUGGAGE_CREW"],
+      "login": "MikHar",
+      "password": "731323334",
+      "avatar": "https://aui.atlassian.com/aui/7.9/docs/images/avatar-96.png",
+      "email": "mikhar@airport.com",
+      "serverAvailable": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "Cris",
+      "secondName": "Coiserg",
+      "roles": ["LUGGAGE_CREW"],
+      "login": "CriCoi",
+      "password": "34333231",
+      "avatar": "https://api.rentandlend.com/images/avatars/5e73955684347.jpg",
+      "email": "cricoir@airport.com",
+      "serverAvailable": [1]
+    },
+    {
+      "id": 3,
+      "name": "Edith",
+      "secondName": "Bross",
+      "roles": ["INSPECTOR"],
+      "login": "EdiBro",
+      "password": "31323433",
+      "avatar": "https://api.rentandlend.com/images/avatars/609e4cc855527.jpeg",
+      "email": "edibro@airport.com",
+      "serverAvailable": [1]
+    }
+  ],
+  "flights": [
+    {
+      "id": 1,
+      "planeId": 1,
+      "startTime": 1655498100,
+      "from": "Krakow Balice",
+      "destination": "London City Airport",
+      "gate": "2D"
+    },
+    {
+      "id": 2,
+      "planeId": 2,
+      "startTime": 1655798100,
+      "from": "Krakow Balice",
+      "destination": "New York JFK",
+      "gate": "1A"
+    }
+  ],
+  "planes": [
+    {
+      "id": 1,
+      "name": "AirBus A250"
+    },
+    {
+      "id": 2,
+      "name": "AirBus A250"
+    }
+  ]
+}

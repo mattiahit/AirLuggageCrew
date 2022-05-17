@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "155185483665",
+    "project_id": "airluggage-97ed2",
+    "storage_bucket": "airluggage-97ed2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155185483665:android:609841ffc94309e9d81430",
+        "android_client_info": {
+          "package_name": "pl.mattiahit.airluggagecrew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155185483665-n61uhnlmfgospmt6glc1hts7fopftuui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACXOF77ip77oFNwRJ47B7fr2XN2Vm9630"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155185483665-n61uhnlmfgospmt6glc1hts7fopftuui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
