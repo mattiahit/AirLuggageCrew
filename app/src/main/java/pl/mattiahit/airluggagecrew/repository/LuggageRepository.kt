@@ -15,7 +15,7 @@ interface LuggageRepository {
 
     suspend fun getFlights(): Resource<Response<List<Flight>>>
 
-    suspend fun getPlanes(): Resource<Resource<List<Plane>>>
+    suspend fun getPlanes(): Resource<Response<List<Plane>>>
 
     suspend fun getUserByLoginAndPassword(login: String, password: String): Resource<User?>
 

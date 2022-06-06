@@ -11,7 +11,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
-private const val BASE_URL = "https://my-json-server.typicode.com/mattiahit/AirLuggageAndroid/"
+private const val BASE_URL = "https://my-json-server.typicode.com/mattiahit/AirLuggageCrew/"
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -27,5 +27,5 @@ class MainModule {
 
     @Singleton
     @Provides
-    fun provideMpcRepository(luggageApi: LuggageApi): LuggageRepository = LuggageRepositoryImpl(luggageApi)
+    fun provideLuggageRepository(luggageApi: LuggageApi): LuggageRepository = LuggageRepositoryImpl(luggageApi)
 }
